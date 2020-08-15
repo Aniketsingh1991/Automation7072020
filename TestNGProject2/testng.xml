@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="Edge"></parameter>
+    <classes>
+      <class name="testNGAttributes.TestNGParameters"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

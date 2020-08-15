@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31410" started-at="2020-08-14T20:32:23 PDT" finished-at="2020-08-14T20:32:54 PDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="31410" started-at="2020-08-14T20:32:23 PDT" finished-at="2020-08-14T20:32:54 PDT">
+      <class name="testScripts.HomePage.HomePage">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:testScripts.HomePage.HomePage@67205a84]" name="initialize" is-config="true" duration-ms="45" started-at="2020-08-14T20:32:23 PDT" finished-at="2020-08-14T20:32:23 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="launchBrowser(java.lang.String)[pri:0, instance:testScripts.HomePage.HomePage@67205a84]" name="launchBrowser" is-config="true" duration-ms="28185" started-at="2020-08-14T20:32:23 PDT" finished-at="2020-08-14T20:32:51 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="verifyIsAutomobileVisible()[pri:0, instance:testScripts.HomePage.HomePage@67205a84]" name="verifyIsAutomobileVisible" duration-ms="183" started-at="2020-08-14T20:32:51 PDT" finished-at="2020-08-14T20:32:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsAutomobileVisible -->
+        <test-method status="PASS" signature="verifyIsCamperVisible()[pri:0, instance:testScripts.HomePage.HomePage@67205a84]" name="verifyIsCamperVisible" duration-ms="26" started-at="2020-08-14T20:32:51 PDT" finished-at="2020-08-14T20:32:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsCamperVisible -->
+        <test-method status="PASS" signature="verifyIsMotorCycleVisible()[pri:0, instance:testScripts.HomePage.HomePage@67205a84]" name="verifyIsMotorCycleVisible" duration-ms="16" started-at="2020-08-14T20:32:51 PDT" finished-at="2020-08-14T20:32:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsMotorCycleVisible -->
+        <test-method status="PASS" signature="verifyIsTruckVisible()[pri:0, instance:testScripts.HomePage.HomePage@67205a84]" name="verifyIsTruckVisible" duration-ms="15" started-at="2020-08-14T20:32:51 PDT" finished-at="2020-08-14T20:32:51 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTruckVisible -->
+        <test-method status="PASS" signature="verifyIsAutobileClickable()[pri:1, instance:testScripts.HomePage.HomePage@67205a84]" name="verifyIsAutobileClickable" duration-ms="1454" started-at="2020-08-14T20:32:51 PDT" finished-at="2020-08-14T20:32:53 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsAutobileClickable -->
+        <test-method status="PASS" signature="verifyIsTruckClickable()[pri:2, instance:testScripts.HomePage.HomePage@67205a84]" name="verifyIsTruckClickable" duration-ms="757" started-at="2020-08-14T20:32:53 PDT" finished-at="2020-08-14T20:32:54 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIsTruckClickable -->
+        <test-method status="PASS" signature="quitBrower()[pri:0, instance:testScripts.HomePage.HomePage@67205a84]" name="quitBrower" is-config="true" duration-ms="720" started-at="2020-08-14T20:32:54 PDT" finished-at="2020-08-14T20:32:54 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrower -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testScripts.HomePage.HomePage@67205a84]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-08-14T20:32:54 PDT" finished-at="2020-08-14T20:32:54 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testScripts.HomePage.HomePage -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

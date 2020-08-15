@@ -45,7 +45,7 @@ public class Automobile {
 		dr.findElement(By.id("lastname")).sendKeys("Rajput");
 		dr.findElement(By.id("birthdate")).sendKeys("02/11/1991");
 
-		dr.findElement(By.xpath("//*[text()='Male']")).click();
+		dr.findElement(By.xpath("//lable[text()='Female']/span")).click();
 		dr.findElement(By.id("streetaddress")).sendKeys("Porwal road");
 
 		WebElement countryDropDown = dr.findElement(By.name("Country"));
